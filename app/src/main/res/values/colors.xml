@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="white">#fff</color>
+    <color name="darkblue">#28538c</color>
+    <color name="EditTextColor">#f6d50a</color>
+    <color name="cautionColor">#d80000</color>
+    <color name="clickline">#3c3f41</color>
+    <color name="pointpink">#fca19a</color>
+    <color name="pointorange">#f5c5a1</color>
+    <color name="pointyellow">#f8f49e</color>
+    <color name="pointDarkBlue">#373d53</color>
+    <color name="pointBrightPurple">#42387d</color>
+    <color name="pointApricot">#f6e3bb</color>
+    <color name="pointKhaki">#584c18</color>
+    <color name="pointDarkPurple">#382739</color>
+    <color name="firstCombinationPointPink">#f3dfd2</color>
+    <color name="firstCombinationPointThickPink">#de878b</color>
+    <color name="firstCombinationPointPurple">#683751</color>
+    <color name="firstCombinationPointDeppBlue">#342d4b</color>
+    <color name="firstCombinationPointBrightBlue">#7b7a95</color>
+    <color name="firstCombinationPointSky">#c5c9d8</color>
+</resources>

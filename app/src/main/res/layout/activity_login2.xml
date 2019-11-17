@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    tools:context=".LoginActivity"
+    android:background="@color/darkblue"
+    android:orientation="vertical"
+    android:weightSum="5">
+
+    <ImageView
+        android:id="@+id/organizationImage"
+        android:layout_gravity="center"
+        android:layout_marginTop="65dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/image1"/>
+
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/prompt_email"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:singleLine="true"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:hint="@string/prompt_password"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:imeActionId="6"
+        android:imeActionLabel="@string/action_sign_in"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:singleLine="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/email_sign_in_button"
+            style="?android:textAppearanceSmall"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="@string/action_sign_in"
+            android:textStyle="bold"
+            />
+            /android:background="@drawable/button_background"
+            <!--android:onClick="mainActivityClick"/>-->
+
+        <TextView
+            android:id="@+id/email_sign_up_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:text="@string/action_sign_up"
+            android:textStyle="bold"
+            android:textColor="@color/EditTextColor"
+            android:onClick="onClick_Singin"/>
+        <!--회원가입 링크-->
+
+        <TextView
+            android:id="@+id/find_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:text="@string/find_eamil"
+            android:textStyle="bold"
+            android:textColor="@color/EditTextColor"
+            android:onClick="onClick_FindEmail"/>
+        <!--이메일 찾기 링크-->
+
+        <TextView
+            android:id="@+id/change_password_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:text="@string/change_password"
+            android:textStyle="bold"
+            android:textColor="@color/EditTextColor"
+            android:onClick="onClick_ChangePassword"/>
+        <!--비밀번호 바꾸기 링크-->
+
+        <TextView
+            android:id="@+id/go_main_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:text="@string/go_main"
+            android:textStyle="bold"
+            android:textColor="@color/EditTextColor"
+            android:onClick="onClick_GoMain"/>
+        <!--메인화면 링크-->
+
+    </LinearLayout>
+
+</LinearLayout>

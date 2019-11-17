@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    tools:context=".SignInActivity"
+    android:orientation="vertical"
+    android:background="@color/darkblue"
+    android:weightSum="10">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:orientation="horizontal"
+        android:gravity="left"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/prompt_email"
+            android:textColor="@color/EditTextColor"/>
+
+        <EditText
+            android:id="@+id/input_email_authentication"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:singleLine="true"/>
+
+        <Button
+            android:id="@+id/input_email_authentication_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/check_email"
+            android:onClick="onClick"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="left"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/nick_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/nick_name"
+            android:textColor="@color/EditTextColor"/>
+
+        <EditText
+            android:id="@+id/input_nick_name"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:singleLine="true"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="left"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:id="@+id/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/prompt_password"
+            android:textColor="@color/EditTextColor"/>
+
+        <EditText
+            android:id="@+id/input_password"
+            android:layout_width="295dp"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:singleLine="true" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/caution_password_security"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/caution_password_security"
+        android:textColor="@color/cautionColor"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="left"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:id="@+id/check_password_guidance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/check_password"
+            android:textColor="@color/EditTextColor"/>
+
+        <EditText
+            android:id="@+id/check_password"
+            android:layout_width="292dp"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:singleLine="true" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/check_password_whether_correct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/check_password_incorrect"
+        android:textColor="@color/cautionColor"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="left"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/school_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/school_number"
+            android:textColor="@color/EditTextColor"/>
+
+        <EditText
+            android:id="@+id/input_school_number"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:singleLine="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="left"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/real_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/real_name"
+            android:textColor="@color/EditTextColor"/>
+
+        <EditText
+            android:id="@+id/input_real_name"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:singleLine="true" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/join"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/join_action"/>
+        <!--android:onClick="insert"/>-->
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:text="@string/log_in"
+        android:textStyle="bold"
+        android:textColor="@color/EditTextColor"/>
+    <!--로그인 링크-->
+    <!--뒤로가기 하면 로그인 페이지라서 빼도 될 것 같기도!-->
+
+    <TextView
+        android:id="@+id/find_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:text="@string/find_eamil"
+        android:textStyle="bold"
+        android:textColor="@color/EditTextColor"/>
+    <!--이메일 찾기 링크-->
+
+    <TextView
+        android:id="@+id/change_password_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:text="@string/change_password"
+        android:textStyle="bold"
+        android:textColor="@color/EditTextColor"/>
+    <!--비밀번호 바꾸기 링크-->
+</LinearLayout>
+
+    <!--EditText의 길이를 dp로 설정, weight로 바꾸는게 좋을 듯!-->

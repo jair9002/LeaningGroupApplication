@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="prompt_email">이메일  </string>
+    <string name="prompt_password">비밀번호  </string>
+    <string name="action_sign_in">로그인</string>
+    <string name="action_sign_up">아직 회원이 아니에요</string>
+    <string name="find_eamil">이메일을 잊어버렸어요</string>
+    <string name="change_password">비밀번호를 바꿀래요</string>
+    <string name="check_email">이메일 \n인증</string>
+    <string name="caution_password_security">특수문자, 영어소문자, 숫자를 포함하여 8~14자로 입력하세요.</string>
+    <string name="join_action">가입하기</string>
+    <string name="check_password">비밀번호 \n 재입력  </string>
+    <string name="check_password_correct">비밀번호가 올바르게 입력되었습니다.  </string>
+    <string name="check_password_incorrect">비밀번호가 다르게 입력되었습니다.  </string>
+    <string name="school_number">학번  </string>
+    <string name="real_name">성명  </string>
+    <string name="loading_ment">모임은 쉽게,\n공부는 더 쉽게  </string>
+    <string name="nick_name">닉네임  </string>
+    <string name="log_in">로그인 할래요</string>
+    <string name="go_main">모임을 구경할래요!</string>
+    <string name="language_group">언어</string>
+    <string name="license_group">자격증</string>
+    <string name="reading_group">독서</string>
+    <string name="majoring_group">전공</string>
+    <string name="hobby_group">취미</string>
+
+</resources>
