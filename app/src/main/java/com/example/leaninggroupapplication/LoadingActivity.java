@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.os.Handler;
 
 public class LoadingActivity extends AppCompatActivity {
-    //dfsdf
+    //dfsdfss
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

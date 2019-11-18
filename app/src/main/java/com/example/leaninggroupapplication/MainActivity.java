@@ -86,6 +86,8 @@ public class MainActivity extends AppCompatActivity {
         frame.removeView(MajoringFrame);
         frame.removeView(HobbyFrame);
 
+        //System.out.println("sdf");
+
         Button checkUserListButton = (Button) findViewById(R.id.checkUserListButton); //회원정보를 확인하기 위한 버튼
         checkUserListButton.setOnClickListener(new View.OnClickListener() {
 
